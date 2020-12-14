@@ -1,45 +1,65 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+The goal for my first milestone project for Code Institute was to create a website for a wedding photographer to showcases their portfolio, and for couples looking to book a photographer for their wedding day. The aim of this project is to increase enquiries and photographic bookings for wedding events. I built this website using HTML5 and CSS3. 
 
-Welcome USER_NAME,
+### Overview
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+A website for a wedding photographer. The website features a home page, an about page, a gallery to showcase the photographer’s portfolio and a contact page so clients can enquire about bookings. The driving force of the website is to increase bookings. The way this is achieved is by directing potential clients to that contact page. 
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### User Stories
 
-`python3 -m http.server`
+* I want a website which is easily accessed on my mobile phone or tablet. 
+* I want to be able to easily navigate the website. 
+* I want to be able to view the photographer’s portfolio to see if their style suits my needs. 
+* I want to be able to easily find the relevant information. 
+* I want to be able to contact the photographer for any questions I may have. 
+* I would like to see the photographer’s social media accounts to see more of their work. 
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### UX 
 
-A blue button should appear to click: *Make Public*,
+The aim of this website is to target couples who are planning to get married. The priority focus is to drive potential clients to the contact page, as well as the social media accounts. Before deciding on a photographer for a wedding, it’s important to view their portfolio. For this reason, I opted to use a simple, and minimalist design with lots of photos. 
 
-Another blue button should appear to click: *Open Browser*.
+I also aimed to be very personable in text as it's not only the photos that attracted potential clients, but also the person behind the camera. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-## Updates Since The Instructional Video
+### Strategy 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The goal of the website is to increase brand awareness by driving potential clients to social media accounts, and to grow bookings and enquiries via the contact page. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+##### Business Goals: 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Increase brand awareness.
+Showcase examples of previous photographic events.
+Drive users to the contact page to increase the number of bookings. 
+Mobile first design to target large audiences who don’t have a PC/Laptop. 
+Simple and effective UX to keep focus on the portofolio.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+##### Customer Goals: 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Easy to navigate website on mobile.  
+Searching for a high quality wedding photographer. 
+A simple, and easy to navigate website. 
+Possible to view photographer’s portfolio.
+Contact the photographer easily. 
+Being able to connect via social media. 
+Someone who understands the importance of capturing special moments. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
 
-Happy coding!
+
+### Scope 
+
+
+The Scope and features of this project were based on market research of similar photographers in the wedding industry.  A simple and clean UX which allows the focus to remain on the two most important aspects of the website; the portofolio and the contact page. 
+
+### Structure 
+
+I am opting for a clean, and minimalist UI and UX. While the nav bar links to the relevant pages, I also linked the gallery via a button beneath the About Me section. I feel this helps to keep a streamlined approach to the website, and reduces users scrolling up/down every time they want to navigate between important pages. 
+Initially I planned on showcases the photographer’s images via a sliding carousel. However, upon researching how effective carousels are for showcasing images, it did not seem like a good UI/UX design. The research shows that carousels are rarely cycled through by users. With this in mind, I opted to go for a straightforward layout design where all photos are visible to the user right away. 
+
+### Skeleton 
+
+All wireframes were developed with Balsamiq. As there are slight design changes for the mobile/tablet/desktop versions of the site, I have created wireframes for each screen type. I have linked the relevant pages below. 
