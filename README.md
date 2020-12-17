@@ -65,4 +65,17 @@ Initially I planned on showcases the photographer’s images via a sliding carou
 All wireframes were developed with Balsamiq. As there are slight design changes for the mobile/tablet/desktop versions of the site, I have created wireframes for each screen type. I have linked the relevant pages below. 
 
 
-- bootstap hamburger icon not working on mobile, so opted to use fontawesome icon instead. 
+- bootstap hamburger icon not working on mobile, so opted to use fontawesome icon instead.
+
+#### Testing/troubleshooting
+I ran into an issue where there is some extra margin showing on the right-hand side of mobile devices.
+
+I seemed to have found a fix in setting a media query with my navbar max-width. Code here: 
+
+ @media (max-width: 767px){
+    .navbar {
+       padding:0 20px;
+    } 
+ }
+
+Solution found on Stack Overflow: https://stackoverflow.com/questions/17815390/large-right-margin-when-browser-is-shrunk-to-mobile-size-on-bootstrap 
