@@ -63,3 +63,6 @@ Initially I planned on showcases the photographer’s images via a sliding carou
 ### Skeleton 
 
 All wireframes were developed with Balsamiq. As there are slight design changes for the mobile/tablet/desktop versions of the site, I have created wireframes for each screen type. I have linked the relevant pages below. 
+
+
+- bootstap hamburger icon not working on mobile, so opted to use fontawesome icon instead. 
