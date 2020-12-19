@@ -21,15 +21,6 @@ body {
     margin: 0px;
 }
 
-.intro-container h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-}
-
-.intro-container h2 {
-    padding-top: 15px;
-}
-
 .intro-container p {
     margin-top: 20px;
 }
@@ -51,6 +42,19 @@ body {
 
 /* ------Heading------ */
 
+.intro-container h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.intro-container h2 {
+    padding-top: 15px;
+}
+
+.about-header {
+     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
 
 /* ------NavBar------ */
 
@@ -127,6 +131,7 @@ body {
 
 }
 
+
 /*-----Buttons------*/
 
 .btn-dark.btn-sm {
@@ -139,7 +144,7 @@ body {
 } 
 
 .about-button {
-    
+
 }
 
 .portfolio-button {
@@ -206,8 +211,24 @@ margin-right: 0px;
 
 /* ------About------ */
 
+#aboutMe {
 
+}
 
+.about-hero-image {
+
+}
+
+.about-container {
+
+}
+
+#aboutMe img {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
 /* ------Contact form------ */
 
 
