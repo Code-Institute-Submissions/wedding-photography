@@ -78,4 +78,8 @@ I seemed to have found a fix in setting a media query with my navbar max-width. 
     } 
  }
 
-Solution found on Stack Overflow: https://stackoverflow.com/questions/17815390/large-right-margin-when-browser-is-shrunk-to-mobile-size-on-bootstrap 
+Solution found on Stack Overflow: https://stackoverflow.com/questions/17815390/large-right-margin-when-browser-is-shrunk-to-mobile-size-on-bootstrap
+
+When adding images for the images on the home page - specfically for the section with two photos in black and white, there was another problem with overflow on the right-hand side. I solved the issue by adding 0px padding in the container. 
+
+I ran into an issue where I was unable to hide an image on mobile only. Looking through the bootstrap documentation, I found a solution with display classes "d-none d-sm-block".  
