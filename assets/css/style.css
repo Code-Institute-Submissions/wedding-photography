@@ -76,6 +76,10 @@ body {
     color: #f8f5f0;
 }
 
+#navbarNav {
+    margin: 10px;
+}
+
 /*-----Home Page -----*/
 
 .home-container {
@@ -134,6 +138,10 @@ body {
     border-top: double;
 } 
 
+.about-button {
+    
+}
+
 .portfolio-button {
 
 
@@ -177,7 +185,8 @@ margin-right: 0px;
 #footer-details .nav-link {
     font-weight: 600;
     color: #0D160B;
-    margin: 30px 0;
+    margin: 20px 0;
+    font-size: 13px;
 }
 
 
