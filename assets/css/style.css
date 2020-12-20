@@ -56,6 +56,10 @@ body {
     font-weight: 300;
 }
 
+.review-container h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
 /* ------NavBar------ */
 
 
@@ -227,8 +231,7 @@ margin-right: 0px;
 }
 
 .about-me-text {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: auto;
     padding-top: 12px;
 }
 
