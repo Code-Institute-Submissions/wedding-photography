@@ -4,7 +4,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', sans;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
 }
 
 
@@ -59,7 +60,10 @@ body {
 .review-container h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    margin-bottom: 25px;
+    margin-top: 15px;
 }
+
 /* ------NavBar------ */
 
 
@@ -217,11 +221,6 @@ margin-right: 0px;
 
 
 
-.about-container {
-
-}
-
-
 
 .about-me-image {
     width: 100%;
@@ -239,16 +238,44 @@ margin-right: 0px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
+
+/* ------Testimonials----- */
+
+.review-container {
+    background-color: #eaecf3;
+}
+
+.review-body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.outer-line {
+  width: 40%;
+  border-bottom: 1px solid #0D160B;
+}
+
+.fa-quote-right {
+
+}
+
 /* ------Contact form------ */
 
 
+.contact form {
 
+}
 
 /* ------Media Query------ */
 
  @media (max-width: 767px){
     .navbar {
        padding: 0 20px;
-    } 
+    }
  }
 

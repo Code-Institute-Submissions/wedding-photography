@@ -67,6 +67,8 @@ All wireframes were developed with Balsamiq. As there are slight design changes 
 
 - bootstap hamburger icon not working on mobile, so opted to use fontawesome icon instead.
 
+For the quote section, I wanted an icon with a line above each quote. I had a lot of trouble implementing this, and I found a solution on StackOverflow. The code was taken directly from the answer, and is attributed here: https://stackoverflow.com/questions/39129052/add-font-awesome-icon-in-middle-of-horizontal-line 
+
 #### Testing/troubleshooting
 I ran into an issue where there is some extra margin showing on the right-hand side of mobile devices.
 
