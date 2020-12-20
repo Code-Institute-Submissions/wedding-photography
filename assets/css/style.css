@@ -52,8 +52,8 @@ body {
 }
 
 .about-header {
-     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
 /* ------NavBar------ */
@@ -217,12 +217,9 @@ margin-right: 0px;
 
 }
 
-.gardenImage {
-    width: 100%;
-    height: auto;
-}
 
-#aboutMe img {
+
+.about-me-image {
     width: 100%;
     height: auto;
     margin-top: 25px;
@@ -230,8 +227,14 @@ margin-right: 0px;
 }
 
 .about-me-text {
-    text-align: center;
-    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 12px;
+}
+
+.photo-style h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 /* ------Contact form------ */
 
