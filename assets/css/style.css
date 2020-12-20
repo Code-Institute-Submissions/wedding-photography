@@ -214,17 +214,29 @@ margin-right: 0px;
 
 /* ------Gallery------ */
 
-.gallery-container {
+/*.image-collection {
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
     justify-content: space-evenly;
 
+} */
+
+.gallery-container {
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .image-gallery { 
-    margin: 5px;
+    margin: 1px;
 }
+
+/* code from Stackoverflow =https://stackoverflow.com/questions/1027354/i-need-an-unordered-list-without-any-bullets */
+
+ul {
+  list-style-type: none;
+}
+
 
 /* ------About------ */
 
