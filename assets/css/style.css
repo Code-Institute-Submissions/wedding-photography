@@ -12,7 +12,7 @@
 /* ------Colours------ */
 
 body {
-    background-color: #f8f5f0;
+    background-color: #f8f9fa;
 }
 
 /* -----Special margins/padding and text---------*/
@@ -68,7 +68,7 @@ body {
 
 
 .navbar {
-    color: #f8f5f0;
+    color: #f8f9fa;
 }
 
 .navbar-brand {
@@ -82,10 +82,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: #0D160B;
+    text-transform: uppercase;
 }
 
 .navbar-nav {
-    color: #f8f5f0;
+    color: #f8f9fa;
 }
 
 #navbarNav {
@@ -97,7 +98,7 @@ body {
 .home-container {
     height: 100vh;
 
-    background: url('../images/bride-hero-image.jpg') no-repeat bottom center fixed;
+    background: url('../images/bride-background-bnw.jpg') no-repeat bottom center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -116,7 +117,7 @@ body {
     height: 100vh;
     width: 100%;
 
-    background: url('../images/ceremony-kiss.jpg') no-repeat center; 
+    background: url('../images/ceremony-kiss-bnw.jpg') no-repeat center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -199,6 +200,7 @@ margin-right: 0px;
     color: #0D160B;
     margin: 20px 0;
     font-size: 13px;
+    text-transform: uppercase;
 }
 
 
@@ -214,22 +216,11 @@ margin-right: 0px;
 
 /* ------Gallery------ */
 
-/*.image-collection {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5px;
-    justify-content: space-evenly;
-
-} */
-
-.gallery-container {
-    margin-right: 0px;
-    margin-left: 0px;
+.carousel-item img {
+    width: 100%;
+    height: auto;
 }
 
-.image-gallery { 
-    margin: 1px;
-}
 
 /* code from Stackoverflow =https://stackoverflow.com/questions/1027354/i-need-an-unordered-list-without-any-bullets */
 
