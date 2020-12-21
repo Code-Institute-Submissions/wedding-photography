@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-size: 16px;
+    color: #212529;
 }
 
 
 /* ------Colours------ */
 
 body {
-    background-color: #f8f9fa;
+    background-color: #f7f7f7;
 }
 
 /* -----Special margins/padding and text---------*/
@@ -39,27 +39,43 @@ body {
 }
 
 
+.block-divder.myDivder {
+    color: #212529;
+    border-top: 1px solid;
+}
 
+.block-divder--short.myDivder {
+    color: #212529;
+    border-top: 1px solid;
+}
 
 /* ------Heading------ */
 
 .intro-container h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
 }
 
 .intro-container h2 {
-    padding-top: 15px;
+    padding-top: 35px;
 }
 
 .about-header {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
     font-size: 24px;
 }
 
+.portfolio-header {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
 .review-container h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
     font-size: 24px;
     margin-bottom: 25px;
@@ -67,7 +83,7 @@ body {
 }
 
 h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
     font-size: 24px;
 }
@@ -75,34 +91,46 @@ h3 {
 
 /* ------NavBar------ */
 
+.mynav a {
+    margin-right: 20px;
+    color: #212529;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 300;
+    border-bottom: solid 2px transparent;
+}
+
+
+.active a {
+    border-bottom: solid 2px #212529;
+}
+
+.mynav a:hover {
+    border-bottom: solid 2px #212529;
+}
+
 
 .navbar {
-    color: #f8f9fa;
+    color: #f7f7f7;
 }
 
-.navbar-brand {
-    font-size: medium;
-    font-weight: 400;
-    padding-left: 10px;
-    color: #0D160B;
+.navbar-brand.a {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 300;
+    margin-left: 5px;
+    margin-top: -5px;
+    color: #212529;
 }
 
-.nav-text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    color: #0D160B;
-    text-transform: uppercase;
+.mynav .navbar-brand {
+    background-color: transparent;
 }
 
-a.nav-link {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    color: #0D160B;
-    text-transform: uppercase;
+.navbar-light .navbar-nav .nav-link {
+    color: #212529;
 }
 
 .navbar-nav {
-    color: #f8f9fa;
+    color: #f7f7f7;
 }
 
 #navbarNav {
@@ -160,13 +188,19 @@ a.nav-link {
 /*-----Buttons------*/
 
 .btn-dark.btn-sm {
-    color: #0D160B;
+    color: #212529;
     background-color: transparent;
     border-color: transparent;
-    border-bottom-color: #0D160B;
+    border-bottom-color: #212529;
     border-bottom: double;
     border-top: double;
 } 
+
+span.btn.cta-button {
+    color: #212529;
+    background-color: transparent;
+    border: 1px solid #212529;
+}
 
 .fa-arrow-right {
     padding-left: 0.3rem;
@@ -181,10 +215,10 @@ a.nav-link {
 
 .jumbotron h1 {
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
     margin-bottom: 30px;
-    color: #0D160B;
+    color: #212529;
 }
 
 .jumbotron .lead {
@@ -192,19 +226,20 @@ a.nav-link {
 }
 
 p.lead {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 /* ------Footer------ */
 
 .page-footer {
-margin-left:0px;
-margin-right: 0px;
+    background-color: #f7f7f7;
+    margin-left:0px;
+    margin-right: 0px;
 }
 
 #footer-details .nav-link {
-    font-weight: 600;
-    color: #0D160B;
+    font-weight: 300;
+    color: #212529;
     margin: 20px 0;
     font-size: 13px;
     text-transform: uppercase;
@@ -212,7 +247,7 @@ margin-right: 0px;
 
 
 #footer-social-links li a i {
-    color: #0D160B;
+    color: #212529;
     letter-spacing: 5%;
 }
 
@@ -231,6 +266,10 @@ margin-right: 0px;
 .image-gallery {
     margin-top: 2px;
     margin-bottom: 2px;
+}
+
+.carousel-container {
+
 }
 
 /* code from Stackoverflow =https://stackoverflow.com/questions/1027354/i-need-an-unordered-list-without-any-bullets */
@@ -272,7 +311,7 @@ ul {
 /* ------Testimonials----- */
 
 .review-body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-size: 18px;
 }
 

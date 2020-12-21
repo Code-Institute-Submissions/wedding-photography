@@ -18,14 +18,14 @@
     <!---Code taken from Bootstrap Navbar template and styled using CSS and different bootstrap classes---->
 
     <section id="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent mynav">
             <a class="navbar-brand nav-text" href="index.html">Tom Cripps <br> Photography</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
 
-            <div class="collapse navbar-collapse navbar-text nav-text" id="navbarNav">
+            <div class="collapse navbar-collapse navbar-text nav-text justify-content-center" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -40,11 +40,12 @@
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
-                <span class="btn btn-dark border-dark cta-button">
+                <span class="btn cta-button">
                     Enquire
                 </span>
             </div>
         </nav>
+
     </section>
     <!----Hero Image and Jumbotron-->
     <!---Code from Code Institute WhiskeyDrop Project---->
@@ -52,7 +53,7 @@
         <div class="jumbotron mb-7 text-center">
             <div class="callout">
                 <h1 class="jumbrotron-header">Picture Perfect</h1>
-                <hr class="block-divder block-divder--grey">
+                <hr class="block-divder myDivder">
                 <p class="lead">Capturing meaning in every photo</p>
             </div>
         </div>
@@ -60,7 +61,7 @@
     <!----Introduction to Webpage----->
     <section class="intro">
         <div class="container intro-container">
-            <hr class="mt-2 mb-3">
+
             <div class="row">
                 <div class="col-sm-12">
                     <h2>Wedding Photographer</h2>
@@ -94,21 +95,17 @@
             </div>
             <div class="col-12-sm mt-3">
                 <div class="text-center">
-                    <a class="btn btn-dark btn-sm portfolio-button" href="portfolio.html" role="button">View portfolio</a>
+                    <a class="btn btn-dark btn-sm portfolio-button" href="portfolio.html" role="button">View
+                        portfolio</a>
                 </div>
             </div>
         </div>
     </section>
-    <hr class="block-divder block-divder--grey">
+    <hr class="block-divder--short myDivder">
     <div class="container-fluid ceremony-image-container">
-        <hr class="mt-2 mb-3">
         <div class="row">
-
         </div>
-
     </div>
-
-    <hr>
     <!-------Footer--------->
     <section class="footer">
         <footer class="page-footer">
@@ -117,6 +114,7 @@
                     <div class="col-sm-12 text-center">
                         <div>
                             <ul class="footer-nav">
+                                <hr class="block-divder--short myDivder mt-3">
                                 <li class="footer-nav-item list-inline-item"><a class="nav-link"
                                         href="index.html">Home</a>
                                 </li>
