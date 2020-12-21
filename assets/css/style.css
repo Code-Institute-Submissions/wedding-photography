@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;500;700&display=swap');
 
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
 
@@ -44,7 +44,7 @@ body {
 /* ------Heading------ */
 
 .intro-container h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 
@@ -53,16 +53,25 @@ body {
 }
 
 .about-header {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    font-size: 24px;
 }
 
 .review-container h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    font-size: 24px;
     margin-bottom: 25px;
     margin-top: 15px;
 }
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
 
 /* ------NavBar------ */
 
@@ -79,8 +88,15 @@ body {
 }
 
 .nav-text {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #0D160B;
+    text-transform: uppercase;
+}
+
+a.nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     color: #0D160B;
     text-transform: uppercase;
 }
@@ -98,7 +114,7 @@ body {
 .home-container {
     height: 100vh;
 
-    background: url('../images/bride-background-bnw.jpg') no-repeat bottom center fixed;
+    background: url('../images/bride-hero-image.jpg') no-repeat bottom center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -152,15 +168,6 @@ body {
     border-top: double;
 } 
 
-.about-button {
-
-}
-
-.portfolio-button {
-
-
-}
-
 .fa-arrow-right {
     padding-left: 0.3rem;
 }
@@ -174,7 +181,7 @@ body {
 
 .jumbotron h1 {
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     margin-bottom: 30px;
     color: #0D160B;
@@ -185,7 +192,7 @@ body {
 }
 
 p.lead {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* ------Footer------ */
@@ -221,6 +228,10 @@ margin-right: 0px;
     height: auto;
 }
 
+.image-gallery {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
 
 /* code from Stackoverflow =https://stackoverflow.com/questions/1027354/i-need-an-unordered-list-without-any-bullets */
 
@@ -232,14 +243,12 @@ ul {
 /* ------About------ */
 
 
-
-
-
 .about-me-image {
     width: 100%;
     height: auto;
     margin-top: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    border-radius: 1%;
 }
 
 .about-me-text {
@@ -247,19 +256,23 @@ ul {
     padding-top: 12px;
 }
 
-.photo-style h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+.philosophy-text { 
+    margin: auto;
+    padding-top: 12px;
 }
+
+.philosophy-image {
+    width: 100%;
+    height: auto;
+    border-radius: 1%;
+    margin-bottom: 15px;
+}
+
 
 /* ------Testimonials----- */
 
-.review-container {
-    background-color: ;
-}
-
 .review-body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
 
@@ -279,10 +292,6 @@ span {
 
 /* ------Contact form------ */
 
-
-.contact form {
-
-}
 
 /* ------Media Query------ */
 
