@@ -109,6 +109,14 @@ h3 {
     border-bottom: solid 2px #212529;
 }
 
+/* Code from StackOverflow: https://stackoverflow.com/questions/14820952/change-bootstrap-input-focus-blue-glow */
+
+.form-control:focus {
+    border-color: #212529;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(14, 13, 13, 0.075);
+  
+}
+
 
 .navbar {
     color: #f7f7f7;
@@ -181,7 +189,12 @@ h3 {
     height: auto;
     width: 100%;
     position: relative;
+}
 
+.contact-image {
+    border-radius: 1%;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -268,9 +281,7 @@ p.lead {
     margin-bottom: 2px;
 }
 
-.carousel-container {
 
-}
 
 /* code from Stackoverflow =https://stackoverflow.com/questions/1027354/i-need-an-unordered-list-without-any-bullets */
 
