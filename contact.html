@@ -46,69 +46,57 @@
             </div>
         </nav>
     </section>
-    <!----Hero Image and Jumbotron-->
-    <!---Code from Code Institute WhiskeyDrop Project---->
-    <div class="container-fluid home-container">
-        <div class="jumbotron mb-7 text-center">
-            <div class="callout">
-                <h1 class="jumbrotron-header">Picture Perfect</h1>
-                <hr class="block-divder block-divder--grey">
-                <p class="lead">Capturing meaning in every photo</p>
-            </div>
-        </div>
-    </div>
-    <!----Introduction to Webpage----->
-    <section class="intro">
-        <div class="container intro-container">
-            <hr class="mt-2 mb-3">
+    <hr class="block-divder myDivder">
+    <!-------Contact Form-------------->
+    <div class="container contact-container">
+        <section>
             <div class="row">
                 <div class="col-sm-12">
-                    <h2>Wedding Photographer</h2>
-                    <p class="text-left">Documentary Wedding Photography is a form of candid photography which
+                    <h3 class="text-center">Get in touch</h3>
+                    <hr class="block-divder block-divder--short myDivder">
+                    <p class="text-center mt-5">I would be honoured to document your wedding day.
                         <br>
-                        documents the whole
-                        wedding, and the special moments which often go unnoticed.
                         <br>
-                        This
-                        allows
-                        you to really enjoy your special day with your friends and family.</p>
-                    <div>
-                        <a class="btn btn-dark btn-sm about-button" href="about.html" role="button">More information <i
-                                class="fas fa-arrow-right"></i></a>
-                    </div>
+                        I hope to hear from you soon.</p>
                 </div>
             </div>
-        </div>
-        <div class="container image-container">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 mt-2 mb-sm-5">
-                    <div>
-                        <img src="assets/images/child-wedding-dress.jpg" alt="child-wedding-dress">
-                    </div>
-                </div>
-                <div class="col-12-sm col-md-6 mt-2">
-                    <div class="d-none d-sm-block">
-                        <img src="assets/images/wedding-dress-preparation.jpg" alt="wedding-dress-preparation">
-                    </div>
-                </div>
-            </div>
-            <div class="col-12-sm mt-3">
-                <div class="text-center">
-                    <a class="btn btn-dark btn-sm portfolio-button" href="portfolio.html" role="button">View portfolio</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <hr class="block-divder block-divder--grey">
-    <div class="container-fluid ceremony-image-container">
-        <hr class="mt-2 mb-3">
-        <div class="row">
+            <!------Form from Bootstrap form row and stlyed differently-->
+            <div class="row d-flex justify-content-center mt-4 mb-4 ml-1 mr-1">
+                <form class="my-contact-form">
 
-        </div>
-
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputFirstName">First Name</label>
+                            <input type="text" class="form-control" id="inputFirstName">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputLastName">Last Name</label>
+                            <input type="text" class="form-control" id="inputLastName">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmailAddress">Email Address</label>
+                        <input type="email" class="form-control" id="inputEmailAddress">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputDate">Date of Wedding</label>
+                        <input type="text" class="form-control" id="inputDate">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputLocation">Wedding Location</label>
+                        <input type="text" class="form-control" id="inputLocation">
+                    </div>
+                    <div class="form-group">
+                        <label for="yourMessage">Message</label>
+                        <textarea class="form-control" id="yourMessage" rows="4"
+                            placeholder="Any additional details you would like to share"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark btn-sm contact-form-btn">Sign in</button>
+                </form>
+            </div>
+        </section>
     </div>
 
-    <hr>
     <!-------Footer--------->
     <section class="footer">
         <footer class="page-footer">

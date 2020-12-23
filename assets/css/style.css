@@ -177,7 +177,6 @@ h3 {
 
 }
 
-
 .image-container img {
     height: auto;
     width: 100%;
@@ -332,6 +331,12 @@ span {
 
 /* ------Contact form------ */
 
+
+.btn.btn-dark.btn-sm.contact-form-btn {
+    display: flex;
+    margin: auto;
+   
+}
 
 /* ------Media Query------ */
 
