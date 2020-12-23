@@ -97,6 +97,7 @@ h3 {
     font-family: 'Merriweather', sans-serif;
     font-weight: 300;
     border-bottom: solid 2px transparent;
+    font-size: 16px;
 }
 
 
@@ -104,7 +105,7 @@ h3 {
     border-bottom: solid 2px #212529;
 }
 
-.mynav a:hover {
+.mynav ul a:hover {
     border-bottom: solid 2px #212529;
 }
 
@@ -113,7 +114,7 @@ h3 {
     color: #f7f7f7;
 }
 
-.navbar-brand.a {
+.navbar-brand .a {
     font-family: 'Merriweather', sans-serif;
     font-weight: 300;
     margin-left: 5px;
@@ -121,8 +122,8 @@ h3 {
     color: #212529;
 }
 
-.mynav .navbar-brand {
-    background-color: transparent;
+.mynav.navbar-brand.a {
+    
 }
 
 .navbar-light .navbar-nav .nav-link {
