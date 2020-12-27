@@ -27,16 +27,16 @@
 
             <div class="collapse navbar-collapse navbar-text nav-text" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
+                    <li class="nav-item" data-toggle="collapse" data-target="navbar-collapse">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" data-toggle="collapse" data-target="navbar-collapse">
                         <a class="nav-link" href="about.html">About</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" data-toggle="collapse" data-target="navbar-collapse">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item active" data-toggle="collapse" data-target="navbar-collapse">
                         <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
@@ -46,15 +46,14 @@
             </div>
         </nav>
     </section>
-    <hr class="block-divder myDivder">
+
     <!-------Contact Form-------------->
     <div class="container contact-container">
         <section>
             <div class="row">
                 <div class="col-sm-12">
-                    <h3 class="text-center">Get in touch</h3>
-                    <hr class="block-divder block-divder--short myDivder">
-                    <p class="text-center mt-5">I would be honoured to document your wedding day.
+                    <h3 class="text-center contact-header">Get in touch</h3>
+                    <p class="text-center mt-3">I would be honoured to document your wedding day.
                         <br>
                         <br>
                         I hope to hear from you soon.</p>
@@ -62,10 +61,10 @@
             </div>
             <div class="row">
                 <div class="col-sm-12">
-                    <img src="assets/images/photo-frame.jpg" alt="photo-frame" class="contact-image img-fluid mx-auto d-block">
+                    <img src="assets/images/photo-frame.jpg" alt="photo-frame"
+                        class="contact-image img-fluid mx-auto d-block">
                 </div>
             </div>
-            <hr class="block-divder--short myDivder">
             <!------Form from Bootstrap form row and stlyed differently-->
             <div class="row d-flex justify-content-center mt-5 mb-4 ml-1 mr-1">
                 <form class="my-contact-form">
@@ -99,7 +98,6 @@
                     <button type="submit" class="btn btn-dark btn-sm contact-form-btn">Submit</button>
                 </form>
             </div>
-
         </section>
     </div>
 
@@ -118,9 +116,11 @@
                                         href="about.html">About</a>
                                 </li>
                                 <li class="footer-nav-item list-inline-item"><a class="nav-link"
-                                        href="portfolio.html">Portfolio</a></li>
-                                <li class="footer-nav-item list-inline-item"><a class="nav-link"
-                                        href="contact.html">Contact</a></li>
+                                        href="portfolio.html">Portfolio</a>
+                                </li>
+                                <li class="footer-nav-item active list-inline-item"><a class="nav-link"
+                                        href="contact.html">Contact</a>
+                                </li>
                             </ul>
                         </div>
                     </div>

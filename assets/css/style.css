@@ -73,7 +73,7 @@ body {
     font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
     font-size: 24px;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-bottom: 25px;
     border-bottom: 1.5px solid #212529;
     padding-bottom: 1.5rem;
@@ -93,6 +93,11 @@ h3 {
     font-size: 24px;
 }
 
+.contact-header {
+    border-bottom: 1.5px solid #212529;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
 
 /* ------NavBar------ */
 
@@ -229,6 +234,10 @@ span.btn.cta-button {
 
 /* ------Jumbotron------ */
 
+.callout {
+    padding-bottom: 30px;
+}
+
 .jumbotron {
     background-color: transparent;
     padding-top: 5px;
@@ -277,6 +286,15 @@ p.lead {
     letter-spacing: 5%;
 }
 
+.social-media-links li a:hover {
+    border-bottom: solid 2px #212529;
+    opacity: 0.5;
+}
+
+.footer-nav li a:hover {
+    border-bottom: solid 2px #212529;
+}
+
 
 /* ------Hover.CSS------ */
 
@@ -298,6 +316,9 @@ p.lead {
     padding-bottom: 1.5rem;
 }
 
+.contact-button-portfolio {
+    padding-bottom: 40px;
+}
 
 /* code from Stackoverflow =https://stackoverflow.com/questions/1027354/i-need-an-unordered-list-without-any-bullets */
 
