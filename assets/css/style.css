@@ -8,83 +8,8 @@
     color: #212529;
 }
 
-
-/* ------Colours------ */
-
 body {
     background-color: #f7f7f7;
-}
-
-/* -----Special margins/padding and text---------*/
-
-.intro {
-    padding: 0px;
-    margin: 0px;
-}
-
-.intro-container p {
-    margin-top: 20px;
-}
-
-.intro-container {
-    padding-right: 0px;
-    overflow-x: hidden;
-}
-
-.image-container{
-    margin-bottom: 10px;
-    margin-top: 30px;
-    padding-right: 0px;
-    overflow-x: hidden;
-}
-
-
-.block-divder.myDivder {
-    color: #212529;
-    border-top: 1px solid;
-}
-
-.block-divder--short.myDivder {
-    color: #212529;
-    border-top: 1px solid;
-}
-
-/* ------Heading------ */
-
-.intro-container h2 {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 300;
-}
-
-.intro-container h2 {
-    padding-top: 35px;
-}
-
-.about-header {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 300;
-    font-size: 24px;
-    padding-top: 1.5rem;
-    border-bottom: 1.5px solid #212529;
-    padding-bottom: 1.5rem;
-}
-
-.portfolio-header {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 300;
-    font-size: 24px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    border-bottom: 1.5px solid #212529;
-    padding-bottom: 1.5rem;
-}
-
-.review-container h3 {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 300;
-    font-size: 24px;
-    margin-bottom: 25px;
-    margin-top: 15px;
 }
 
 h3 {
@@ -93,14 +18,13 @@ h3 {
     font-size: 24px;
 }
 
-.contact-header {
-    border-bottom: 1.5px solid #212529;
-    padding-bottom: 1.5rem;
-    padding-top: 1.5rem;
+/*--code from Stackoverflow =https://stackoverflow.com/questions/1027354/i-need-an-unordered-list-without-any-bullets--*/
+
+ul {
+  list-style-type: none;
 }
 
-/* ------NavBar------ */
-
+/*--Navbar--*/
 
 .navbar {
     border-bottom: 1.5px solid #212529;
@@ -114,23 +38,15 @@ h3 {
     font-weight: 300;
     border-bottom: solid 2px transparent;
     font-size: 16px;
+    padding: 10px 0;
 }
-
 
 .active a {
     border-bottom: solid 2px #212529;
 }
 
-.mynav ul a:hover {
-    border-bottom: solid 2px #212529;
-}
-
-/* Code from StackOverflow: https://stackoverflow.com/questions/14820952/change-bootstrap-input-focus-blue-glow */
-
-.form-control:focus {
+.navbar-light .navbar-toggler{
     border-color: #212529;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(14, 13, 13, 0.075);
-  
 }
 
 
@@ -146,7 +62,6 @@ h3 {
     color: #212529;
 }
 
-
 .navbar-light .navbar-nav .nav-link {
     color: #212529;
 }
@@ -159,7 +74,34 @@ h3 {
     margin: 10px;
 }
 
-/*-----Home Page -----*/
+/*--Home Page--*/
+
+.intro {
+    padding: 0px;
+    margin: 0px;
+}
+
+.intro-container {
+    padding-right: 0px;
+    overflow-x: hidden;
+}
+
+.intro-container h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    padding-top: 35px;
+}
+
+.intro-container p {
+    margin-top: 20px;
+}
+
+.home-image-container{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding-right: 0px;
+    overflow-x: hidden;
+}
 
 .home-container {
     height: 100vh;
@@ -210,125 +152,24 @@ h3 {
     height: auto;
 }
 
+/*--About Page--*/
 
-/*-----Buttons------*/
-
-.btn-dark.btn-sm {
-    color: #212529;
-    background-color: transparent;
-    border-color: transparent;
-    border-bottom-color: #212529;
-    border-bottom: double;
-    border-top: double;
-} 
-
-span.btn.cta-button {
-    color: #212529;
-    background-color: transparent;
-    border: 1px solid #212529;
-}
-
-.fa-arrow-right {
-    padding-left: 0.3rem;
-}
-
-/* ------Jumbotron------ */
-
-.callout {
-    padding-bottom: 30px;
-}
-
-.jumbotron {
-    background-color: transparent;
-    padding-top: 5px;
-}
-
-.jumbotron h1 {
-    color: white;
+.about-header {
     font-family: 'Fira Sans', sans-serif;
-    font-weight: 400;
-    margin-bottom: 30px;
-    color: #212529;
-}
-
-.jumbotron .lead {
-    margin: 35px 0;
-}
-
-p.lead {
-    font-family: 'Fira Sans', sans-serif;
-}
-
-/* ------Footer------ */
-
-.page-footer {
-    background-color: #f7f7f7;
-    margin-left:0px;
-    margin-right: 0px;
-}
-
-#footer-details {
-    border-top: solid 1.5px #212529;
-
-}
-
-#footer-details .nav-link {
     font-weight: 300;
-    color: #212529;
-    margin: 20px 0;
-    font-size: 13px;
-    text-transform: uppercase;
-}
-
-
-#footer-social-links li a i {
-    color: #212529;
-    letter-spacing: 5%;
-}
-
-.social-media-links li a:hover {
-    border-bottom: solid 2px #212529;
-    opacity: 0.5;
-}
-
-.footer-nav li a:hover {
-    border-bottom: solid 2px #212529;
-}
-
-
-/* ------Hover.CSS------ */
-
-
-
-/* ------Gallery------ */
-
-.carousel-item img {
-    width: 100%;
-    height: auto;
-}
-
-.image-gallery {
-    margin-top: 2px;
-    margin-bottom: 2px;
-}
-
-.image-gallery-button {
+    font-size: 24px;
+    padding-top: 1.5rem;
+    border-bottom: 1.5px solid #212529;
     padding-bottom: 1.5rem;
 }
 
-.contact-button-portfolio {
-    padding-bottom: 40px;
+.review-container h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 25px;
+    margin-top: 15px;
 }
-
-/* code from Stackoverflow =https://stackoverflow.com/questions/1027354/i-need-an-unordered-list-without-any-bullets */
-
-ul {
-  list-style-type: none;
-}
-
-
-/* ------About------ */
-
 
 .about-me-image {
     width: 100%;
@@ -394,13 +235,145 @@ span {
 }
 
 
-/* ------Contact form------ */
+/*--Portfolio Page--*/
 
+.portfolio-header {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1.5px solid #212529;
+    padding-bottom: 1.5rem;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.image-gallery {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.image-gallery-button {
+    padding-bottom: 1.5rem;
+}
+
+.contact-button-portfolio {
+    padding-bottom: 40px;
+}
+
+/*--Contact Page--*/
+
+.contact-header {
+    border-bottom: 1.5px solid #212529;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+/*--Code from StackOverflow: https://stackoverflow.com/questions/14820952/change-bootstrap-input-focus-blue-glow --*/
+
+.form-control:focus {
+    border-color: #212529;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(14, 13, 13, 0.075);
+}
+
+/*-----Buttons------*/
+
+.btn-dark.btn-sm {
+    color: #212529;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom-color: #212529;
+    border-bottom: double;
+    border-top: double;
+} 
+
+span.btn.cta-button {
+    color: #212529;
+    background-color: transparent;
+    border: 1px solid #212529;
+}
+
+.fa-arrow-right {
+    padding-left: 0.3rem;
+}
 
 .btn.btn-dark.btn-sm.contact-form-btn {
     display: flex;
     margin: auto;
    
+}
+
+/* ------Jumbotron------ */
+
+.callout {
+    padding-bottom: 30px;
+}
+
+.jumbotron {
+    background-color: transparent;
+    padding-top: 5px;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #212529;
+}
+
+.jumbotron .lead {
+    margin: 35px 0;
+}
+
+p.lead {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* ------Footer------ */
+
+.page-footer {
+    background-color: #f7f7f7;
+    margin-left:0px;
+    margin-right: 0px;
+}
+
+#footer-details {
+    border-top: solid 1.5px #212529;
+
+}
+
+#footer-details .nav-link {
+    font-weight: 300;
+    color: #212529;
+    margin: 20px 0;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+
+#footer-social-links li a i {
+    color: #212529;
+    letter-spacing: 5px;
+}
+
+/*--Hover.CSS--*/
+
+.social-media-links li a:hover {
+    border-bottom: solid 2px #212529;
+    opacity: 0.5;
+}
+
+.footer-nav li a:hover {
+    border-bottom: solid 2px #212529;
+}
+
+.mynav ul a:hover {
+    border-bottom: solid 2px #212529;
 }
 
 /* ------Media Query------ */
