@@ -32,13 +32,14 @@ ul {
 }
 
 .mynav a {
-    margin-right: 20px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
     color: #212529;
     font-family: 'Merriweather', sans-serif;
     font-weight: 300;
     border-bottom: solid 2px transparent;
     font-size: 16px;
-    padding: 10px 0;
 }
 
 .active a {
@@ -52,6 +53,8 @@ ul {
 
 .navbar {
     color: #f7f7f7;
+    padding-bottom: 5px;
+    padding-top: 2px;
 }
 
 .navbar-brand .a {
@@ -307,6 +310,10 @@ span.btn.cta-button {
    
 }
 
+button .btn .portfolio-button {
+    padding-bottom: 5px;
+}
+
 /* ------Jumbotron------ */
 
 .callout {
@@ -333,6 +340,7 @@ span.btn.cta-button {
 p.lead {
     font-family: 'Fira Sans', sans-serif;
 }
+
 
 /* ------Footer------ */
 
