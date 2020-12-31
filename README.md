@@ -88,21 +88,21 @@ I kept the text sections of the website short with enough relevant information a
 
 All wireframes were developed with Balsamiq. As there are slight design changes for the mobile/tablet/desktop versions of the site, I have created wireframes for each screen type. I have linked the relevant pages below. 
 
-Home page PC - 
-Home page Tablet - 
-Home page Mobile - 
+[Home page PC](../Wireframes/home-page-desktop.png)
+[Home page tablet](../Wireframes/home-page-tablet.png)
+[Home page mobile](../Wireframes/home-page-mobile.png)
 
-About page PC - 
-About page Tablet - 
-About page Mobile - 
+[About page PC](../Wireframes/about-page-desktop.png)
+[About page tablet](../Wireframes/about-page-tablet.png)
+[About page mobile](../Wireframes/about-page-mobile.png)
 
-Portfolio page PC - 
-Portfolio page Tablet - 
-Portfolio page Mobile - 
+[Portfolio page PC](../Wireframes/portfolio-page-desktop.png)
+[Portfolio page tablet](../Wireframes/portfolio-page-tablet.png)
+[Portfolio page mobile](../Wireframes/portfolio-page-mobile.png)
 
-Contact page PC - 
-Contact page Tablet - 
-Contact page Mobile - 
+[Contact page PC](../Wireframes/contact-page-desktop.png)
+[Contact page tablet](../Wireframes/contact-page-tablet.png)
+[Contact page mobile](../Wireframes/contact-page-mobile.png)
 
 #### Surface 
 
