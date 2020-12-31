@@ -88,41 +88,28 @@ I kept the text sections of the website short with enough relevant information a
 
 All wireframes were developed with Balsamiq. As there are slight design changes for the mobile/tablet/desktop versions of the site, I have created wireframes for each screen type. I have linked the relevant pages below. 
 
-Note: To open links in a new tab, please use CTRL+click (on Windows and Linux) or CMD+click (on MacOS).
+- Note: To open links in a new tab, please use CTRL+click (on Windows and Linux) or CMD+click (on MacOS).
 
-##### Home Page 
-            
+###### Home Page        
 * [Home page desktop](./wireframes/home-page-desktop.png)
-​
 * [Home page tablet](./wireframes/home-page-tablet.png)
-​
 * [Home page mobile](./wireframes/home-page-mobile.png)
 ​
-##### About Page 
-​
+###### About Page 
 * [About page desktop](./wireframes/about-page-desktop.png)
-​
 * [About page tablet](./wireframes/about-page-tablet.png)
-​
 * [About page mobile](./wireframes/about-page-mobile.png)
 ​
-##### Portfolio Page
-​
+###### Portfolio Page
 * [Portfolio page desktop](./wireframes/portfolio-page-desktop.png)
-​
 * [Portfolio page tablet](./wireframes/portfolio-page-tablet.png)
-​
 * [Portfolio page mobile](./wireframes/portfolio-page-mobile.png)
 ​
-##### Contact Page
-​
+###### Contact Page
 * [Contact page desktop](./wireframes/contact-page-desktop.png)
-​
 * [Contact page tablet](./wireframes/contact-page-tablet.png)
-​
 * [Contact page mobile](./wireframes/contact-page-mobile.png)
 ​
-
 #### Surface 
 
 ###### Colours
