@@ -43,57 +43,54 @@
     </nav>
 
     <!--Contact Form-->
-    <div class="container contact-container">
-        <section>
-            <div class="row">
+    <div class="container-fluid contact-container">
+    </div>
+
+      <div class="row">
                 <div class="col-sm-12">
                     <h3 class="text-center contact-header">Get in touch</h3>
-                    <p class="text-center mt-3">I would be honoured to document your wedding day.
+                    <p class="text-center mt-5">I would be honoured to document your wedding day.
                         <br>
                         <br>
-                        I hope to hear from you soon.</p>
+                        Please feel free to fill out the details below and I will be in contact very soon. 
+                    </p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-12">
-                    <img src="assets/images/photo-frame.jpg" alt="photo-frame"
-                        class="contact-image img-fluid mx-auto d-block">
+            </div>
+
+    <!--Form from Bootstrap form row and stlyed differently-->
+    <div class="row d-flex justify-content-center mt-5 mb-4 ml-1 mr-1">
+        <form class="my-contact-form">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputFirstName">First Name *</label>
+                    <input type="text" class="form-control" id="inputFirstName" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputLastName">Last Name *</label>
+                    <input type="text" class="form-control" id="inputLastName" required>
                 </div>
             </div>
-            <!--Form from Bootstrap form row and stlyed differently-->
-            <div class="row d-flex justify-content-center mt-5 mb-4 ml-1 mr-1">
-                <form class="my-contact-form">
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="inputFirstName">First Name *</label>
-                            <input type="text" class="form-control" id="inputFirstName" required>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputLastName">Last Name *</label>
-                            <input type="text" class="form-control" id="inputLastName" required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmailAddress">Email Address *</label>
-                        <input type="email" class="form-control" id="inputEmailAddress" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputDate">Date of Wedding *</label>
-                        <input type="text" class="form-control" id="inputDate" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputLocation">Wedding Location</label>
-                        <input type="text" class="form-control" id="inputLocation">
-                    </div>
-                    <div class="form-group">
-                        <label for="yourMessage">Message</label>
-                        <textarea class="form-control" id="yourMessage" rows="4"
-                            placeholder="Any additional details you would like to share"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-dark btn-sm contact-form-btn">Submit</button>
-                </form>
+            <div class="form-group">
+                <label for="inputEmailAddress">Email Address *</label>
+                <input type="email" class="form-control" id="inputEmailAddress" required>
             </div>
-        </section>
+            <div class="form-group">
+                <label for="inputDate">Date of Wedding *</label>
+                <input type="text" class="form-control" id="inputDate" required>
+            </div>
+            <div class="form-group">
+                <label for="inputLocation">Wedding Location</label>
+                <input type="text" class="form-control" id="inputLocation">
+            </div>
+            <div class="form-group">
+                <label for="yourMessage">Message</label>
+                <textarea class="form-control" id="yourMessage" rows="4"
+                    placeholder="Any additional details you would like to share"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark btn-sm contact-form-btn">Submit</button>
+        </form>
     </div>
 
     <!--Footer-->
