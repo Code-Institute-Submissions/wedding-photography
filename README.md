@@ -23,8 +23,6 @@ The aim of this project was to showcase a wedding photographer's portfolio, and 
 * Credits
 * Support
 
-
-
 ### Overview
 
 A website for a wedding photographer. The website features a home page, an about page, a gallery to showcase the photographer’s portfolio and a contact page so clients can enquire about bookings. The driving force of the website is to increase bookings. The way this is achieved is by directing potential clients to that contact page, being personable and honest about their approach to wedding photography, and displaying images throughout the website. 
@@ -111,11 +109,11 @@ Contact page Mobile -
 ###### Colours
 I chose to employ a minimilist and clean design for the website. 
 
-I decided to use an off-white (#f7f7f7) background colour which works well with the images used throughout the website. Many images were black and white and I felt the off-white background color complimented these photos. 
+For my navbar, and footer I decided to use an off-white/yellow (#DEDCD7) background colour which works well with the images used throughout the website. Many images were black and white and I felt the background color complimented these photos. The navbar color also complimented the home page hero image as the color is present within the image. 
 
-The hero image on the home page also complimented the background color. For this reason, I opted to use a transparent navigation menu. 
+For my background color, I opted to use a much lighter shade the navigation bar, mixed with a white (#ffff) this resulted in a dark white (#EAE9E8) which helped the text and photos pop, while not feeling out of place or diminishing the UX. 
 
-The only other color I used was #212529 which is a dark grayish blue. I decided to use this instead of an all out black color for text, headings, and borders as I believe it was easier on the eyes, and also complimented the off-white (#f7f7f7) background colour. 
+For text color, and buttons and borders I chose to use the color #212529 which is a dark grayish blue. I decided to use this instead of an all out black color for text, headings, and borders as I believe it was easier on the eyes, and also complimented the off-white (#f7f7f7) background colour. 
 
 ###### Font
 
@@ -129,8 +127,7 @@ For the headings and body of text, I chose to Fira Sans font as it paired well w
 
 I chose to just show two reviews on mobile instead of three which is what is feautred on the desktop. This was a design choice as three reviews on the mobile site felt cluttered. 
 
-I also chose to remove the carousel feature on mobile, as it felt more intuitive to scroll through photos on mobile, as opposed to tapping the carousel arrows. 
-
+Initially, I wanted to use a carousel to display photos, however upon researching carousel interaction stats, it seems that most research indicates that less than 1% of users click on this feature. Given the importance of quickly capturing a user's attention especially in the portfolio section it seemed like a poor UX and UI design choice. Instead I opted for a grid layout which quickly shows the photographer's photos. 
 
 #### Future Features 
 
@@ -158,8 +155,6 @@ Bootstrap was linked into the html document via [CDN](https://www.bootstrapcdn.c
 
 [W3C CSS](https://jigsaw.w3.org/css-validator/) to check validity of CSS code. 
 
-
-
 #### Testing
 
 * I tested each navigation link on every page to ensure that they directed to the correct page.
@@ -176,5 +171,58 @@ Bootstrap was linked into the html document via [CDN](https://www.bootstrapcdn.c
 * 
 https://search.google.com/test/mobile-friendly
 
+#### Troubleshooting
 
+* For the quote section, I wanted an icon in the middle of a horizontal line. I had a lot of trouble implementing this, and I found a solution on Stack overflow [here](https://stackoverflow.com/questions/39129052/add-font-awesome-icon-in-middle-of-horizontal-line )
 
+* I ran into an issue where there is some extra margin showing on the right-hand side of mobile devices. I found a fix in setting a media query with my navbar padding max-width for mobile. Solution found on Stack overflow [here](https://stackoverflow.com/questions/17815390/large-right-margin-when-browser-is-shrunk-to-mobile-size-on-bootstrap)
+
+* When adding images for the images on the home page - specfically for the section with two photos in black and white, there was another problem with overflow on the right-hand side. I solved the issue by adding 0px padding in the container. 
+
+* I ran into an issue where I was unable to hide an image on mobile only. Looking through the bootstrap documentation, I found a solution with display classes "d-none d-sm-block". 
+
+* I had an issue when adding a hover effect to the navbar items. I only wanted to target the nav menu items, and not the navbar brand. However, when I hovered over the brand an underline border would appear. I resolved the issue by further targeting the nav menu items with .mynav ul a {}
+
+* I also had an issue when using the hover effect for nav-items where there would be a slight jump in the page. This was due to an issue with the underline border. I found a fix via [Youtube](https://youtu.be/LV3w60037EI?t=1074). The soultion was to add a transparent border targeting the same class which would elimante the little jump when hovering over nav items. 
+
+* I also experienced an issue with the large photo on the contact.html page. On desktop the image was centered, however on mobile the image took up too much space. This was resolved by adding a media query for smaller devices and setting the height vh lower than on desktops. 
+
+* I wanted to collapse the navbar on mobile by clicking outside of the nav menu, instead of clicking the hamburger menu. I found a solution on [Stack Overflow](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437) which allowed me to collapse the navbar without clicking the hamburger icon everytime. 
+
+### Code Validity 
+
+HTML Markup Validation - [W3C](https://validator.w3.org/)
+CSS Validation - [W3C](https://jigsaw.w3.org/css-validator/)
+
+### Deployment
+
+### Credits
+
+#### Text 
+All text was written by myself. 
+
+#### Media 
+All photos used were from Unsplash. - https://unsplash.com/
+
+#### References for Code
+
+The background image opacity and jumbotron code was taken from Code Institue Whiskey Drop Project. 
+
+Collapse Navbar code was taken from StackOverflow - https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437 
+
+Navigation bar active bottom-border was taken from a solution in this video, and styled to fit the theme of the website. - https://youtu.be/LV3w60037EI?t=1074 
+
+Media Query for navigation bar to stop extra padding on mobile was found here: https://stackoverflow.com/questions/17815390/large-right-margin-when-browser-is-shrunk-to-mobile-size-on-bootstrap 
+
+Code for testimonal lines with font awesome was taken from here: https://stackoverflow.com/questions/39129052/add-font-awesome-icon-in-middle-of-horizontal-line  
+
+Inspiration for README file was taken from Code Institue README template https://github.com/Code-Institute-Solutions/readme-template
+
+Inspiration for README file was also taken from Anna Greaves presentation and template on how to do a README.md
+
+I used https://stackoverflow.com/questions/14820952/change-bootstrap-input-focus-blue-glow in order to change the color of the contact form selector. Instead of using the default blue glow, I changed it to a black border outline via CSS. 
+
+Code for unordered list without bullet points was taken from Stackoverflow here: 
+https://stackoverflow.com/questions/1027354/i-need-an-unordered-list-without-any-bullets
+
+### Acknowledgements

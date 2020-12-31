@@ -127,7 +127,6 @@ ul {
     position: relative;
 }
 
-
 .ceremony-image-container {
     height: 100vh;
     width: 100%;
@@ -146,7 +145,6 @@ ul {
     position: relative;
 
 }
-
 
 .image-container img {
     height: auto;
@@ -242,7 +240,6 @@ span {
   border-bottom: 1px solid #0D160B;
 }
 
-
 /*--Portfolio Page--*/
 
 .portfolio-header {
@@ -253,14 +250,6 @@ span {
     margin-bottom: 25px;
     border-bottom: 1.5px solid #212529;
     padding-bottom: 1.5rem;
-}
-
-.gallery-container {
-
-}
-
-.portfolio-images {
-    padding: 0px;
 }
 
 .image-gallery {
@@ -286,7 +275,6 @@ span {
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
 }
-
 
 .contact-container {
     height: 80vh;
