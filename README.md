@@ -92,7 +92,7 @@ All wireframes were developed with Balsamiq. As there are slight design changes 
 
 [Home page PC](./wireframes/home-page-desktop.png)
 [Home page tablet](./wireframes/home-page-tablet.png)
-![Home page mobile](./wireframes/home-page-mobile.png)
+[Home page mobile](./wireframes/home-page-mobile.png)
 
 [About page PC](./wireframes/about-page-desktop.png)
 [About page tablet](./wireframes/about-page-tablet.png)
