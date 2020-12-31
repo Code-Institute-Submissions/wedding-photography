@@ -90,21 +90,21 @@ All wireframes were developed with Balsamiq. As there are slight design changes 
 
 
 
-![Home page PC](./wireframes/home-page-desktop.png)
-![Home page tablet](./wireframes/home-page-tablet.png)
+[Home page PC](./wireframes/home-page-desktop.png)
+[Home page tablet](./wireframes/home-page-tablet.png)
 ![Home page mobile](./wireframes/home-page-mobile.png)
 
-![About page PC](./wireframes/about-page-desktop.png)
-![About page tablet](./wireframes/about-page-tablet.png)
-![About page mobile](./wireframes/about-page-mobile.png)
+[About page PC](./wireframes/about-page-desktop.png)
+[About page tablet](./wireframes/about-page-tablet.png)
+[About page mobile](./wireframes/about-page-mobile.png)
 
-![Portfolio page PC](./wireframes/portfolio-page-desktop.png)
-![Portfolio page tablet](./wireframes/portfolio-page-tablet.png)
-![Portfolio page mobile](./wireframes/portfolio-page-mobile.png)
+[Portfolio page PC](./wireframes/portfolio-page-desktop.png)
+[Portfolio page tablet](./wireframes/portfolio-page-tablet.png)
+[Portfolio page mobile](./wireframes/portfolio-page-mobile.png)
 
-![Contact page PC](./wireframes/contact-page-desktop.png)
-![Contact page tablet](./wireframes/contact-page-tablet.png)
-![Contact page mobile](./wireframes/contact-page-mobile.png)
+[Contact page PC](./wireframes/contact-page-desktop.png)
+[Contact page tablet](./wireframes/contact-page-tablet.png)
+[Contact page mobile](./wireframes/contact-page-mobile.png)
 
 #### Surface 
 
