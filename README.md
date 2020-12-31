@@ -88,41 +88,45 @@ I kept the text sections of the website short with enough relevant information a
 
 All wireframes were developed with Balsamiq. As there are slight design changes for the mobile/tablet/desktop versions of the site, I have created wireframes for each screen type. I have linked the relevant pages below. 
 
+Note: To open links in a new tab, please use CTRL+click (on Windows and Linux) or CMD+click (on MacOS).
+
 ##### Home Page 
-
+            
 * [Home page desktop](./wireframes/home-page-desktop.png)
-
+​
 * [Home page tablet](./wireframes/home-page-tablet.png)
-
+​
 * [Home page mobile](./wireframes/home-page-mobile.png)
-
+​
 ##### About Page 
-
+​
 * [About page desktop](./wireframes/about-page-desktop.png)
-
+​
 * [About page tablet](./wireframes/about-page-tablet.png)
-
+​
 * [About page mobile](./wireframes/about-page-mobile.png)
-
+​
 ##### Portfolio Page
-
+​
 * [Portfolio page desktop](./wireframes/portfolio-page-desktop.png)
-
+​
 * [Portfolio page tablet](./wireframes/portfolio-page-tablet.png)
-
+​
 * [Portfolio page mobile](./wireframes/portfolio-page-mobile.png)
-
+​
 ##### Contact Page
-
+​
 * [Contact page desktop](./wireframes/contact-page-desktop.png)
-
+​
 * [Contact page tablet](./wireframes/contact-page-tablet.png)
-
+​
 * [Contact page mobile](./wireframes/contact-page-mobile.png)
+​
 
 #### Surface 
 
 ###### Colours
+
 I chose to employ a minimilist and clean design for the website. 
 
 For my navbar, and footer I decided to use an off-white/yellow (#DEDCD7) background colour which works well with the images used throughout the website. Many images were black and white and I felt the background color complimented these photos. The navbar color also complimented the home page hero image as the color is present within the image. 
@@ -204,6 +208,8 @@ https://search.google.com/test/mobile-friendly
 * I also experienced an issue with the large photo on the contact.html page. On desktop the image was centered, however on mobile the image took up too much space. This was resolved by adding a media query for smaller devices and setting the height vh lower than on desktops. 
 
 * I wanted to collapse the navbar on mobile by clicking outside of the nav menu, instead of clicking the hamburger menu. I found a solution on [Stack Overflow](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437) which allowed me to collapse the navbar without clicking the hamburger icon everytime. 
+
+* I experienced an issue with adding wireframe images to the README.md file. I was unable to get the links to open in a new tab when clicked. Upon research I learnt you have to CTRL + click (Windows or Linux) or CMD + click (Mac) I found the answer on [Stack Overflow](https://stackoverflow.com/questions/41915571/open-link-in-new-tab-with-github-markdown-using-target-blank)
 
 ### Code Validity 
 
