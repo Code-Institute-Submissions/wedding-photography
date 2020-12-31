@@ -88,23 +88,37 @@ I kept the text sections of the website short with enough relevant information a
 
 All wireframes were developed with Balsamiq. As there are slight design changes for the mobile/tablet/desktop versions of the site, I have created wireframes for each screen type. I have linked the relevant pages below. 
 
+##### Home Page 
 
+* [Home page desktop](./wireframes/home-page-desktop.png)
 
-[Home page PC](./wireframes/home-page-desktop.png)
-[Home page tablet](./wireframes/home-page-tablet.png)
-[Home page mobile](./wireframes/home-page-mobile.png)
+* [Home page tablet](./wireframes/home-page-tablet.png)
 
-[About page PC](./wireframes/about-page-desktop.png)
-[About page tablet](./wireframes/about-page-tablet.png)
-[About page mobile](./wireframes/about-page-mobile.png)
+* [Home page mobile](./wireframes/home-page-mobile.png)
 
-[Portfolio page PC](./wireframes/portfolio-page-desktop.png)
-[Portfolio page tablet](./wireframes/portfolio-page-tablet.png)
-[Portfolio page mobile](./wireframes/portfolio-page-mobile.png)
+##### About Page 
 
-[Contact page PC](./wireframes/contact-page-desktop.png)
-[Contact page tablet](./wireframes/contact-page-tablet.png)
-[Contact page mobile](./wireframes/contact-page-mobile.png)
+* [About page desktop](./wireframes/about-page-desktop.png)
+
+* [About page tablet](./wireframes/about-page-tablet.png)
+
+* [About page mobile](./wireframes/about-page-mobile.png)
+
+##### Portfolio Page
+
+* [Portfolio page desktop](./wireframes/portfolio-page-desktop.png)
+
+* [Portfolio page tablet](./wireframes/portfolio-page-tablet.png)
+
+* [Portfolio page mobile](./wireframes/portfolio-page-mobile.png)
+
+##### Contact Page
+
+* [Contact page desktop](./wireframes/contact-page-desktop.png)
+
+* [Contact page tablet](./wireframes/contact-page-tablet.png)
+
+* [Contact page mobile](./wireframes/contact-page-mobile.png)
 
 #### Surface 
 
