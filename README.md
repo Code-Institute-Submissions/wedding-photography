@@ -102,7 +102,7 @@ All wireframes were developed with Balsamiq. As there are slight design changes 
 ​
 ###### Portfolio Page
 * [Portfolio page desktop](./wireframes/portfolio-page-desktop.png)
-* [Portfolio page tablet](./wireframes/portfolio-page-tablet.png)
+* [Portfolio page tablet](./wireframes/portfolio-tablet.png)
 * [Portfolio page mobile](./wireframes/portfolio-page-mobile.png)
 ​
 ###### Contact Page
