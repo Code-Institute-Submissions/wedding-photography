@@ -164,19 +164,15 @@ Bootstrap was linked into the html document via [CDN](https://www.bootstrapcdn.c
 
 #### Testing
 
-* I tested each navigation link on every page to ensure that they directed to the correct page.
-* I also tested the navigation brand to ensure that it directed users back to the home page. 
+* I clicked on each navigation link on every page to ensure that they directed to the correct page.
+* I also clicked on the navigation brand on every page to ensure that it directed users back to the home page. 
 * I tested each social media link in the footer to make sure that they linked to the correct social media website, and also opened up a new tab when clicked. 
 * I tested each button on every page to ensure that they directed to the relevant sections. 
 * I opened DevTools and checked the responsiveness of each page on desktop screens to small mobiles to ensure that the website was responsive across all devices. 
-* I tested the carousel arrows to make sure that the right arrow moved to the next image, and the left arrow reverted back to the previous image. 
+* I tested the image gallery on all screen sizes to ensure all photos showed in the correct order, and with intended spacing. 
 * I tested each section of the contact form to make sure that the form could not be submitted without the required fields having the necessary information. 
-* I also tested the contact form to ensure that once filled in correctly, there were not any errors prefenting it from being submitted. 
-* I tested the Portfolio page on mobile to make sure the iamges had the correct spacing. 
+* I also tested the contact form to ensure that once filled in correctly, there were not any errors preventing it from being submitted. 
 * I re-tested all pages on mobiles to ensure that there weren't any erros with button functionality and button spacing. 
-* I also used Google Mobile Friendly-Test to further test the website on mobile. 
-* 
-https://search.google.com/test/mobile-friendly
 
 #### Troubleshooting
 
@@ -204,6 +200,13 @@ HTML Markup Validation - [W3C](https://validator.w3.org/)
 CSS Validation - [W3C](https://jigsaw.w3.org/css-validator/)
 
 ### Deployment
+
+1. I opened up Gitpod to first ensure my branch was up to date, and my working tree was clean. 
+2. I then searched for GitHub and logged into my account. 
+3. I clicked on the title of my repository 'wedding-photography'. 
+4. From here, I selected the 'Settings' option, and scrolled the page down to the section titled 'GitHub Pages'.
+5. Under the 'Source' option, I selected the master branch. 
+
 
 ### Credits
 
