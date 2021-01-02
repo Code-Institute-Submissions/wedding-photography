@@ -12,7 +12,7 @@ The aim of this project was to showcase a wedding photographer's portfolio, and 
     * Strategy
     * Scope
     * Structure
-    * Skeleton
+    * Skeleton 
     * Surface
 * Features
 * Technologies Used 
@@ -21,9 +21,8 @@ The aim of this project was to showcase a wedding photographer's portfolio, and 
 * Code Validity 
 * Version Control
 * Deployment
-* References 
-* Credits
-* Support
+* References and Credits
+* Acknowledgements
 
 ### Overview
 
@@ -164,6 +163,8 @@ Bootstrap was linked into the html document via [CDN](https://www.bootstrapcdn.c
 
 [W3C CSS](https://jigsaw.w3.org/css-validator/) to check validity of CSS code. 
 
+[Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly)
+
 #### Testing
 
 * I clicked on each navigation link on every page to ensure that they directed to the correct page.
@@ -176,6 +177,7 @@ Bootstrap was linked into the html document via [CDN](https://www.bootstrapcdn.c
 * I also tested the contact form to ensure that once filled in correctly, there were not any errors preventing it from being submitted. 
 * I re-tested all pages on mobiles to ensure that there weren't any erros with button functionality and button spacing. 
 * I input every piece of code both for the CSS style sheet, and the html pages through W3C validator to ensure that no errors were present. 
+* I also test the webiste via Google's Mobile-Friendly Test service to ensure that it was responsive on mobiles. 
 
 #### Troubleshooting
 
@@ -244,3 +246,4 @@ Code for unordered list without bullet points was taken from Stackoverflow here:
 https://stackoverflow.com/questions/1027354/i-need-an-unordered-list-without-any-bullets
 
 ### Acknowledgements
+
