@@ -173,6 +173,7 @@ Bootstrap was linked into the html document via [CDN](https://www.bootstrapcdn.c
 * I tested each section of the contact form to make sure that the form could not be submitted without the required fields having the necessary information. 
 * I also tested the contact form to ensure that once filled in correctly, there were not any errors preventing it from being submitted. 
 * I re-tested all pages on mobiles to ensure that there weren't any erros with button functionality and button spacing. 
+* I input every piece of code both for the CSS style sheet, and the html pages through W3C validator to ensure that no errors were present. 
 
 #### Troubleshooting
 
@@ -205,7 +206,10 @@ CSS Validation - [W3C](https://jigsaw.w3.org/css-validator/)
 2. I then searched for GitHub and logged into my account. 
 3. I clicked on the title of my repository 'wedding-photography'. 
 4. From here, I selected the 'Settings' option, and scrolled the page down to the section titled 'GitHub Pages'.
-5. Under the 'Source' option, I selected the master branch. 
+5. Under the 'Source' option, I selected the master branch, and clicked 'Save'. 
+6. I refreshed the page, and the GitHub Pages link populated under the 'Github Pages' section of the Settings page.
+7. I waited a couple of minutes, and I clicked the link to view my deployed website. 
+8. The website had deployed successfully.  
 
 
 ### Credits
