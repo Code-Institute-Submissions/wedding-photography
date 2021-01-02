@@ -2,6 +2,8 @@
 
 The aim of this project was to showcase a wedding photographer's portfolio, and to increase enquires of potential clients. 
 
+![Website-Overview](./assets/images/website-overview.png)
+
 ## Contents 
 
 * Overview 
