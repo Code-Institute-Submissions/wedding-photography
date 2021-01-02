@@ -167,7 +167,7 @@ Bootstrap was linked into the html document via [CDN](https://www.bootstrapcdn.c
 * I clicked on each navigation link on every page to ensure that they directed to the correct page.
 * I also clicked on the navigation brand on every page to ensure that it directed users back to the home page. 
 * I tested each social media link in the footer to make sure that they linked to the correct social media website, and also opened up a new tab when clicked. 
-* I tested each button on every page to ensure that they directed to the relevant sections. 
+* I tested each button on every page to ensure that they directed users to the relevant sections. 
 * I opened DevTools and checked the responsiveness of each page on desktop screens to small mobiles to ensure that the website was responsive across all devices. 
 * I tested the image gallery on all screen sizes to ensure all photos showed in the correct order, and with intended spacing. 
 * I tested each section of the contact form to make sure that the form could not be submitted without the required fields having the necessary information. 
