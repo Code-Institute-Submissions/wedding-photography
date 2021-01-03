@@ -125,6 +125,8 @@ ul {
     justify-content: center;
 
     position: relative;
+    background-size:100%;
+    width:100%; 
 }
 
 .ceremony-image-container {
