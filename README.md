@@ -137,7 +137,7 @@ I chose to just show two reviews on mobile instead of three which is what is fea
 
 Initially, I wanted to use a carousel to display photos, however upon researching carousel interaction stats, it seems that most research indicates that less than 1% of users click on this feature. Given the importance of quickly capturing a user's attention especially in the portfolio section it seemed like a poor UX and UI design choice. Instead I opted for a grid layout which quickly shows the photographer's photos. 
 
-#### Future Features 
+#### Future Features
 
 I would like to add a feature which would allow the purchasing of photos buy adding a shopping section for clients. Clients could input their allocated password, and choose which photos from their wedding they would like to purchase. 
 
@@ -199,6 +199,8 @@ Bootstrap was linked into the html document via [CDN](https://www.bootstrapcdn.c
 
 * I experienced an issue with adding wireframe images to the README.md file. I was unable to get the links to open in a new tab when clicked. Upon research I learnt you have to CTRL + click (Windows or Linux) or CMD + click (Mac) I found the answer on [Stack Overflow](https://stackoverflow.com/questions/41915571/open-link-in-new-tab-with-github-markdown-using-target-blank)
 
+* There is an issue with the parallax scrolling feature on iOS devices. As a result, the background-images don't function as expected. 
+
 ### Code Validity 
 
 HTML Markup Validation - [W3C](https://validator.w3.org/)
@@ -222,7 +224,7 @@ CSS Validation - [W3C](https://jigsaw.w3.org/css-validator/)
 All text was written by myself. 
 
 #### Media 
-All photos used were from Unsplash. - https://unsplash.com/
+All photos were obtained from Unsplash. - https://unsplash.com/
 
 #### References for Code
 
