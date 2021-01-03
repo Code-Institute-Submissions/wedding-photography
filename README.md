@@ -179,7 +179,8 @@ Bootstrap was linked into the html document via [CDN](https://www.bootstrapcdn.c
 
 * I experienced an issue with adding wireframe images to the README.md file. I was unable to get the links to open in a new tab when clicked. Upon research I learnt you have to CTRL + click (Windows or Linux) or CMD + click (Mac) I found the answer on [Stack Overflow](https://stackoverflow.com/questions/41915571/open-link-in-new-tab-with-github-markdown-using-target-blank)
 
-* There is an issue with the parallax scrolling feature on iOS devices. As a result, the background-images don't function as expected. 
+* There is an issue with the parallax scrolling feature on iOS devices. As a result, the background-images did not function as expected. It resulted in a very zoomed in image that did not look good. Upon researching and discussing the issue with others, it seems that it is an issue with iOS devices, and my solution was to create a media query which disabled the parallax feature on smaller devices. The code was found on 
+[StackOverflow](https://stackoverflow.com/questions/23838718/fixed-background-cover-becomes-zoomed-in-mobile-view/23839133#23839133). 
 
 ### Code Validity 
 
