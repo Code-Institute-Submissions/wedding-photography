@@ -114,10 +114,10 @@ ul {
     height: 100vh;
 
     background: url('../images/bride-hero-image.jpg') no-repeat bottom center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 
     
     display: flex;
@@ -430,12 +430,10 @@ ul.footer-nav {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-
     
       display: flex;
       align-items: center;
       justify-content: center;
-
       position: relative;
     }
  }
