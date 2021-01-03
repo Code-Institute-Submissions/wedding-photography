@@ -437,9 +437,3 @@ ul.footer-nav {
       position: relative;
     }
  }
-
- @media screen and (max-width: 992px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-}
