@@ -125,8 +125,6 @@ ul {
     justify-content: center;
 
     position: relative;
-    background-size:100%;
-    width:100%; 
 }
 
 .ceremony-image-container {
@@ -441,7 +439,7 @@ ul.footer-nav {
  }
 
  @media screen and (max-width: 992px) {
-    #parallax {
+    .parallax {
         background-attachment: scroll;
     }
 }
