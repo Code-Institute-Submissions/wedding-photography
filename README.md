@@ -4,26 +4,6 @@ The aim of this project was to showcase a wedding photographer's portfolio, and 
 
 ![Website Overview](./assets/images/website-overview.png)
 
-## Contents 
-
-* Overview 
-* User Stories 
-* UX
-    * Strategy
-    * Scope
-    * Structure
-    * Skeleton 
-    * Surface
-* Features
-* Technologies Used 
-* Testing
-* Troubleshooting
-* Code Validity 
-* Version Control
-* Deployment
-* References and Credits
-* Acknowledgements
-
 ### Overview
 
 A website for a wedding photographer. The website features a home page, an about page, a gallery to showcase the photographer’s portfolio and a contact page so clients can enquire about bookings. The driving force of the website is to increase bookings. The way this is achieved is by directing potential clients to that contact page, being personable and honest about their approach to wedding photography, and displaying images throughout the website. 
@@ -222,6 +202,8 @@ CSS Validation - [W3C](https://jigsaw.w3.org/css-validator/)
 
 #### Text 
 All text was written by myself. 
+
+ReadME.md table of contents was inspired by JimLynx's README 
 
 #### Media 
 All photos were obtained from Unsplash. - https://unsplash.com/
