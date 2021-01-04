@@ -157,7 +157,8 @@ Bootstrap was linked into the html document via [CDN](https://www.bootstrapcdn.c
 * I also tested the contact form to ensure that once filled in correctly, there were not any errors preventing it from being submitted. 
 * I re-tested all pages on mobiles to ensure that there weren't any erros with button functionality and button spacing. 
 * I input every piece of code both for the CSS style sheet, and the html pages through W3C validator to ensure that no errors were present. 
-* I also test the webiste via Google's Mobile-Friendly Test service to ensure that it was responsive on mobiles. 
+* I also tested the webiste via Google's Mobile-Friendly Test service to ensure that it was responsive on mobiles. 
+* I noticed an issue with the parallax feature on iOS devices and I tried to remedy this bug in various ways by changing the background-image size and how it was contained within the div. As the issue was only present with the deployed version of the website (on GitHub Pages). As a result, I had to make a couple of unecessary git commits in order to troubleshoot the issue as I was unable to use Dev Tools or another live preview. 
 
 #### Troubleshooting
 
@@ -204,8 +205,6 @@ CSS Validation - [W3C](https://jigsaw.w3.org/css-validator/)
 #### Text 
 All text was written by myself. 
 
-ReadME.md table of contents was inspired by JimLynx's README 
-
 #### Media 
 All photos were obtained from Unsplash. - https://unsplash.com/
 
@@ -229,6 +228,8 @@ I used https://stackoverflow.com/questions/14820952/change-bootstrap-input-focus
 
 Code for unordered list without bullet points was taken from Stackoverflow here: 
 https://stackoverflow.com/questions/1027354/i-need-an-unordered-list-without-any-bullets
+
+The code for resolving the parallax issue on mobile devices was found on [StackOverflow.](https://stackoverflow.com/questions/23838718/fixed-background-cover-becomes-zoomed-in-mobile-view/23839133#23839133). 
 
 ### Acknowledgements
 
