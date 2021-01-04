@@ -13,7 +13,6 @@ body {
 }
 
 h3 {
-    font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
     font-size: 24px;
 }
@@ -24,56 +23,43 @@ ul {
   list-style-type: none;
 }
 
+.bottom-border {
+    border-bottom: 1.5px solid #212529;
+}
+
 /*--Navbar--*/
 
 .navbar {
     border-bottom: 1.5px solid #212529;
-    padding-bottom: 1.5rem;
+    padding-bottom: 5px; 
+    padding-top: 2px;
 }
 
-.mynav {
+.navigation-bar {
     background-color: #DEDCD7;
 }
 
-.mynav a {
+.navigation-bar a {
     margin-right: 30px;
     display: flex;
     justify-content: center;
-    color: #212529;
     font-family: 'Merriweather', sans-serif;
     font-weight: 300;
     border-bottom: solid 2px transparent;
     font-size: 16px;
+    color: #212529;
 }
 
 .active a {
     border-bottom: solid 2px #212529;
 }
 
-.navbar-light .navbar-toggler{
+.navbar-toggler{
     border-color: #212529;
 }
 
-
-.navbar {
-    padding-bottom: 5px;
-    padding-top: 2px;
-}
-
-.navbar-brand .a {
-    font-family: 'Merriweather', sans-serif;
-    font-weight: 300;
+.navbar-brand {
     margin-left: 5px;
-    margin-top: -5px;
-    color: #212529;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: #212529;
-}
-
-.navbar-nav {
-    color: #f7f7f7;
 }
 
 #navbarNav {
@@ -93,7 +79,6 @@ ul {
 }
 
 .intro-container h2 {
-    font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
     padding-top: 35px;
 }
@@ -109,6 +94,8 @@ ul {
     overflow-x: hidden;
     padding-left: 0px;
 }
+
+/*--Code from background-image of Code Institute Whiskey Drop Project */
 
 .home-container {
     height: 100vh;
@@ -151,25 +138,16 @@ ul {
     position: relative;
 }
 
-.contact-image {
-    border-radius: 1%;
-    max-width: 100%;
-    height: auto;
-}
-
 /*--About Page--*/
 
 .about-header {
-    font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
     font-size: 24px;
     padding-top: 1.5rem;
-    border-bottom: 1.5px solid #212529;
     padding-bottom: 1.5rem;
 }
 
 .review-container h3 {
-    font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
     font-size: 24px;
     margin-bottom: 25px;
@@ -190,7 +168,6 @@ ul {
 }
 
 .philosophy-header {
-    border-bottom: 1.5px solid #212529;
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
 }
@@ -209,12 +186,10 @@ ul {
 }
 
 .photo-style {
-    border-bottom: 1.5px solid #212529;
     padding-bottom: 1.5rem;
 }
 
 .about-section { 
-    border-bottom: 1.5px solid #212529;
     padding-bottom: 1.5rem;
 }
 /* ------Testimonials----- */
@@ -242,12 +217,10 @@ span {
 /*--Portfolio Page--*/
 
 .portfolio-header {
-    font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
     font-size: 24px;
     margin-top: 25px;
     margin-bottom: 25px;
-    border-bottom: 1.5px solid #212529;
     padding-bottom: 1.5rem;
 }
 
@@ -270,7 +243,6 @@ span {
 /*--Contact Page--*/
 
 .contact-header {
-    border-bottom: 1.5px solid #212529;
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
 }
@@ -311,12 +283,6 @@ span {
     border-top: double;
 } 
 
-span.btn.cta-button {
-    color: #212529;
-    background-color: transparent;
-    border: 1px solid #212529;
-}
-
 .fa-arrow-right {
     padding-left: 0.3rem;
 }
@@ -324,7 +290,6 @@ span.btn.cta-button {
 .btn.btn-dark.btn-sm.contact-form-btn {
     display: flex;
     margin: auto;
-   
 }
 
 button .btn .portfolio-button {
@@ -343,19 +308,12 @@ button .btn .portfolio-button {
 }
 
 .jumbotron h1 {
-    color: white;
-    font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
     margin-bottom: 30px;
-    color: #212529;
 }
 
 .jumbotron .lead {
     margin: 35px 0;
-}
-
-p.lead {
-    font-family: 'Fira Sans', sans-serif;
 }
 
 .myDivder {
@@ -382,7 +340,6 @@ p.lead {
     text-transform: uppercase;
 }
 
-
 #footer-social-links li a i {
     color: #212529;
     letter-spacing: 3px;
@@ -398,7 +355,6 @@ ul.footer-nav {
 /*--Hover.CSS--*/
 
 .social-media-links li a:hover {
-    border-bottom: solid 2px #212529;
     opacity: 0.5;
 }
 
@@ -406,7 +362,7 @@ ul.footer-nav {
     border-bottom: solid 2px #212529;
 }
 
-.mynav ul a:hover {
+.navigation-bar ul a:hover {
     border-bottom: solid 2px #212529;
 }
 
