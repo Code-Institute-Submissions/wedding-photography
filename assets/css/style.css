@@ -330,6 +330,7 @@ button .btn .portfolio-button {
 
 #footer-details {
     border-top: solid 1.5px #212529;
+    color: #212529;
 }
 
 #footer-details .nav-link {
@@ -341,7 +342,6 @@ button .btn .portfolio-button {
 }
 
 #footer-social-links li a i {
-    color: #212529;
     letter-spacing: 3px;
 }
 
