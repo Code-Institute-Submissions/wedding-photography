@@ -160,6 +160,51 @@ Bootstrap was linked into the html document via [CDN](https://www.bootstrapcdn.c
 * I also tested the webiste via Google's Mobile-Friendly Test service to ensure that it was responsive on mobiles. 
 * I noticed an issue with the parallax feature on iOS devices and I tried to remedy this bug in various ways by changing the background-image size and how it was contained within the div. As the issue was only present with the deployed version of the website (on GitHub Pages). As a result, I had to make a couple of unecessary git commits in order to troubleshoot the issue as I was unable to use Dev Tools or another live preview. 
 
+##### Testing User Stories 
+
+* "I want a website which is easily accessed on my mobile phone or tablet." 
+
+  - The website is mobile responsive across all devices, and I have taken steps to ensure a smooth mobile experience. This includes removing features which otherwise take away from a clean and simple mobile UX. The navigation bar is designed to be drop-down on both mobile and tablet screens to allow for maximum screen space. 
+
+
+* "I want to be able to easily navigate the website." 
+
+  * Once a user enters the website, they are presented with a clean, and easy to understand navigation bar. The website has been designed to be user friendly, and easy to navigate across all devices. At the top of each page there is a simple navigation bar with clearly defined navigation links.
+    
+    If users scroll down on the home page, they are shown images, and two buttons which users can click on to direct them to more information about the photographer, or to view the photographer’s portfolio. 
+
+    There is also a call to action button beneath the photographer's portfolio which encourages users to contact the photographer. This button directly leads users to the contact page. 
+
+    At the bottom of every page, the footer is populated with navigation links to social media accounts, and the other pages of the website. This ensures that users can easily navigate to other pages without unnecessary scrolling. 
+
+    In addition, both the navigation bar, and the footer feature visual cues to inform users which page they are currently viewing. 
+
+* "I want to be able to view the photographer’s portfolio to see if their style suits my needs." 
+
+     * When users enter the website they are presented with a large image by the photographer. There are photos used throughout the website on all pages. This allows users to view different photos in all pages, and not just on the portfolio section of the website.
+
+        The portfolio page can be accessed from the navigation menu, the footer navigation links, as well as a button on the home page. 
+
+* "I want to be able to easily find the relevant information."
+
+    * All pages are clearly labelled for users to find. Headings are frequently used to establish the content of the relevant page. I have also opted to use bottom borders to aid in the separation of content on some pages where there is a lot of information.
+     
+        In addition, there are visual cues which tell the user which page they are currently viewing. I have also added a hover effect for the navigation bar and the footer, so users can clearly tell which page they are clicking on. 
+
+* "I want to be able to contact the photographer for any questions I may have."
+
+     * In keeping with the philosophy of having a website that has a clean and simple UX/UI, I have added a page which contains a contact form. This allows users to contact the photographer. Beneath the photographer’s portfolio, I have also added a button which directs users to the contact page.
+
+* "I want to know more about the photographer." 
+
+     * When users first enter the website, they are presented with a slogan and some text which highlights the photographer’s philosophy; to capture meaningful photos. 
+
+        On the home page, there is also an ‘about’ snippet with a button which redirects users to the ‘About’ page. This is where users can find more information about the photographer, and their photographic style. 
+
+* "I would like to see the photographer’s social media accounts to see more of their work." 
+
+    * I have added social media links in the footer which allows users to follow the photographer's social media accounts. In addition, I prefaced these links with a friendly statement to encourage people to click on the links. 
+
 #### Troubleshooting
 
 * For the quote section, I wanted an icon in the middle of a horizontal line. I had a lot of trouble implementing this, and I found a solution on Stack overflow [here](https://stackoverflow.com/questions/39129052/add-font-awesome-icon-in-middle-of-horizontal-line )
