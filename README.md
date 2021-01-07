@@ -256,7 +256,7 @@ All photos were obtained from Unsplash. - https://unsplash.com/
 
 #### References for Code
 
-The background image opacity and jumbotron code was taken from Code Institue Whiskey Drop Project. 
+The background image opacity and jumbotron code was taken from Code Institute Whiskey Drop Project. 
 
 Collapse Navbar code was taken from StackOverflow - https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked/36406437#36406437 
 
@@ -266,7 +266,7 @@ Media Query for navigation bar to stop extra padding on mobile was found here: h
 
 Code for testimonal lines with font awesome was taken from here: https://stackoverflow.com/questions/39129052/add-font-awesome-icon-in-middle-of-horizontal-line  
 
-Inspiration for README file was taken from Code Institue README template https://github.com/Code-Institute-Solutions/readme-template
+Inspiration for README file was taken from Code Institute README template https://github.com/Code-Institute-Solutions/readme-template
 
 Inspiration for README file was also taken from Anna Greaves presentation and template on how to do a README.md
 
@@ -279,3 +279,6 @@ The code for resolving the parallax issue on mobile devices was found on [StackO
 
 ### Acknowledgements
 
+* I would like to thank my mentor Aaron Sinnott for his continuous help and feedback. 
+* I would like to thank the Tutor support at Code Institute for their support.
+* I would like to thank the Code Institute Slack community for all the helpful advice I have received.
