@@ -266,7 +266,7 @@ Media Query for navigation bar to stop extra padding on mobile was found here: h
 
 Code for testimonal lines with font awesome was taken from here: https://stackoverflow.com/questions/39129052/add-font-awesome-icon-in-middle-of-horizontal-line  
 
-Inspiration for README file was taken from Code Institute README template https://github.com/Code-Institute-Solutions/readme-template
+Inspiration for README file was taken from Code Institute README template https://github.com/Code-Institute-Solutions/SampleREADME
 
 Inspiration for README file was also taken from Anna Greaves presentation and template on how to do a README.md
 
