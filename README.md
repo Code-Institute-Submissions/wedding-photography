@@ -2,6 +2,8 @@
 
 The aim of this project was to showcase a wedding photographer's portfolio, and to increase enquires of potential clients. 
 
+[You can view the live project here](https://tomc2311.github.io/wedding-photography/)
+
 ![Website Overview](./assets/images/website-overview.png)
 
 ### Overview
@@ -165,7 +167,6 @@ Bootstrap was linked into the html document via [CDN](https://www.bootstrapcdn.c
 * "I want a website which is easily accessed on my mobile phone or tablet." 
 
   - The website is mobile responsive across all devices, and I have taken steps to ensure a smooth mobile experience. This includes removing features which otherwise take away from a clean and simple mobile UX. The navigation bar is designed to be drop-down on both mobile and tablet screens to allow for maximum screen space. 
-
 
 * "I want to be able to easily navigate the website." 
 
