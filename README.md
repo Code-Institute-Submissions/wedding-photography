@@ -1,8 +1,5 @@
 # Tom Cripps Wedding Photography 
 
-The basics
-# Tom Cripps Wedding Photography 
-
 This project aimed to showcase a wedding photographer's portfolio, and to increase the enquires of potential clients. 
 
 [You can view the live project here](https://tomc2311.github.io/wedding-photography/)
