@@ -168,7 +168,7 @@ Bootstrap was linked into the HTML document via [CDN](https://www.bootstrapcdn.c
 
      * The website is mobile responsive across all devices, and I have taken steps to ensure a smooth mobile experience. This includes removing features that otherwise take away from a clean and simple mobile UX. The navigation bar is designed to be drop-down on both mobile and tablet screens to allow for maximum screen space. 
 
-     * You can see this [here](./images/user-story-mobile.png) 
+     * You can see this [here](./assets/images/user-story-mobile.png) 
 
 * "I want to be able to easily navigate the website." 
 
@@ -182,7 +182,7 @@ Bootstrap was linked into the HTML document via [CDN](https://www.bootstrapcdn.c
 
      * Also, both the navigation bar, and the footer feature visual cues to inform users which page they are currently viewing. 
 
-     * You can see this [here](./images/user-story-navbar.png) 
+     * You can see this [here](./assets/images/user-story-navbar.png) 
 
 * "I want to be able to view the photographer’s portfolio to see if their style suits my needs." 
 
@@ -190,13 +190,13 @@ Bootstrap was linked into the HTML document via [CDN](https://www.bootstrapcdn.c
 
      * The portfolio page can be accessed from the navigation menu, the footer navigation links, as well as a button on the home page.
 
-     * You can see this [here](./images/user-story-portfolio.png) 
+     * You can see this [here](./assets/images/user-story-portfolio.png) 
 
 * "I want to be able to easily find the relevant information."
 
      * All pages are clearly labeled for users to find. Headings are frequently used to establish the content of the relevant page. I have also opted to use bottom borders to aid in the separation of content on some pages where there is a lot of information.
 
-     * You can see this [here](./images/user-story-mobile.png) 
+     * You can see this [here](./assets/images/user-story-mobile.png) 
 
      * Also, there are visual cues that tell the user which page they are currently viewing. I have also added a hover effect for the navigation bar and the footer, so users can easily identify which page they are clicking on. 
 
@@ -204,7 +204,7 @@ Bootstrap was linked into the HTML document via [CDN](https://www.bootstrapcdn.c
 
      * In keeping with the philosophy of having a website that has a clean and simple UX/UI, I have added a page that contains a contact form. This allows users to contact the photographer. Beneath the photographer’s portfolio, I have also added a button that directs users to the contact page.
 
-     * You can see this [here](./images/user-story-contact.png) 
+     * You can see this [here](./assets/images/user-story-contact.png) 
 
 * "I want to know more about the photographer." 
 
@@ -214,7 +214,7 @@ Bootstrap was linked into the HTML document via [CDN](https://www.bootstrapcdn.c
 
      * Users can find more information about the photographer, and their photographic style on the 'About' page. 
 
-     * You can see this [here](./images/user-story-about.png) 
+     * You can see this [here](./assets/images/user-story-about.png) 
 
 * "I would like to see the photographer’s social media accounts to see more of their work." 
 
