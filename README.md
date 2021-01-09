@@ -196,7 +196,7 @@ Bootstrap was linked into the HTML document via [CDN](https://www.bootstrapcdn.c
 
      * All pages are clearly labeled for users to find. Headings are frequently used to establish the content of the relevant page. I have also opted to use bottom borders to aid in the separation of content on some pages where there is a lot of information.
 
-     * You can see this [here](./assets/images/navigate.png) 
+     * You can see this [here](./assets/images/user-story-navigate.png) 
 
      * Also, there are visual cues that tell the user which page they are currently viewing. I have also added a hover effect for the navigation bar and the footer, so users can easily identify which page they are clicking on. 
 
@@ -219,6 +219,8 @@ Bootstrap was linked into the HTML document via [CDN](https://www.bootstrapcdn.c
 * "I would like to see the photographer’s social media accounts to see more of their work." 
 
      * I have added social media links in the footer which allows users to follow the photographer's social media accounts. Also, I prefaced these links with a friendly statement to encourage people to click on the links. 
+
+     * You can see this [here](./assets/images/user-story-social-media.png)
 
 ## Troubleshooting
 
