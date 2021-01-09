@@ -168,7 +168,7 @@ Bootstrap was linked into the HTML document via [CDN](https://www.bootstrapcdn.c
 
      * The website is mobile responsive across all devices, and I have taken steps to ensure a smooth mobile experience. This includes removing features that otherwise take away from a clean and simple mobile UX. The navigation bar is designed to be drop-down on both mobile and tablet screens to allow for maximum screen space. 
 
-     * You can see this [here](./assets/images/user-story-mobile.png) 
+     * You can see this [here](./assets/images/user-story-mobile-view.png) 
 
 * "I want to be able to easily navigate the website." 
 
@@ -196,7 +196,7 @@ Bootstrap was linked into the HTML document via [CDN](https://www.bootstrapcdn.c
 
      * All pages are clearly labeled for users to find. Headings are frequently used to establish the content of the relevant page. I have also opted to use bottom borders to aid in the separation of content on some pages where there is a lot of information.
 
-     * You can see this [here](./assets/images/user-story-mobile.png) 
+     * You can see this [here](./assets/images/navigate.png) 
 
      * Also, there are visual cues that tell the user which page they are currently viewing. I have also added a hover effect for the navigation bar and the footer, so users can easily identify which page they are clicking on. 
 
